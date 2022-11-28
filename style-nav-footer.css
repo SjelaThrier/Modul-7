@@ -120,3 +120,44 @@ body{
     left: 0;
   }}
   /* menubar slut*/
+
+  /* Footer */
+.footer{
+  background-color: var(--clr-darkblue);
+  width: 100%;
+  height: auto;
+  height: auto;
+  display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+  padding: 25px 0px 25px 0px;
+}
+
+.footer-os{
+  width: 150px;
+  height: auto;
+  font-family: var(--ff-primary);
+  color: var(--clr-white);
+  text-align: left;
+}
+
+.footer-txt{
+  width: 300px;
+  height: auto;
+  font-family: var(--ff-primary);
+  color: var(--clr-white);
+  text-align: left;
+}
+
+.blue-btn {
+  background-color: var(--clr-blue);
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  text-align: center;
+  color: var(--clr-font-light);
+  font-family: var(--ff-secondary);
+  cursor: pointer;
+}
+/* Footer */
