@@ -146,18 +146,17 @@ body{
   height: auto;
   font-family: var(--ff-primary);
   color: var(--clr-white);
+  font-size: small;
   text-align: left;
 }
 
-.blue-btn {
-  background-color: var(--clr-blue);
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
-  border-style: none;
-  text-align: center;
-  color: var(--clr-font-light);
-  font-family: var(--ff-secondary);
-  cursor: pointer;
+.footer-box{
+  width: 500px;
+  height: auto;
+  display: flex;
+	flex-direction: row;
+  position:absolute;
+  justify-content: space-around;
+  align-items: center;
 }
 /* Footer */
