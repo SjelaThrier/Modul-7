@@ -1,0 +1,46 @@
+:root{
+	--ff-primary: 'Montserrat';
+  
+	--fw-reg:  300;
+	--fx-bold: 900;
+  
+	--clr--pink:  #EA3DB7;
+	--clr-darkblue:   #143547;   
+	--clr-lightblue: #1E4B65; 
+	--clr-white: #FFFFFF;   
+	--clr-offwhite: #F6F6FB;   
+  
+	--fs-h1:   34px;
+	--fs-h2:   20px;
+	--fs-nav:  20px;
+  	}
+  
+
+body{   
+    background: var(--clr-darkblue);  
+}  
+
+.loginboks{
+	width: auto;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+	font-family: var(--ff-primary);
+	color: var(--clr-offwhite);
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+  }
+
+.btn{  
+	font-family: var(--ff-primary);
+    color: #fff;  
+    background: var(--clr--pink);  
+    padding: 7px;   
+	border-style: none;
+	width: 100px;
+	height: auto;
+	border-radius: 25px;
+	margin-left:auto;
+	margin-right: auto;
+}  
