@@ -157,10 +157,31 @@ text-align: left;
   position: inherit;
   display: flex;
   justify-content: center;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: var(--clr-white);
   background-color: var(--clr--pink);
+  padding: 30px;
+}
+
+.btn-pink{  
+	font-family: var(--ff-primary);
+    color: #fff;  
+    background: var(--clr--pink);  
+    padding: 7px;   
+	border-style: none;
+	width: 100px;
+	height: auto;
+	border-radius: 25px;
+	margin-left:auto;
+	margin-right: auto;
+}  
+
+.btn-box {
+  padding: 20px;
+
 }
