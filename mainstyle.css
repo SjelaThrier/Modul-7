@@ -19,6 +19,8 @@
 body{   
     background: var(--clr-offwhite);  
     font-family: var(--ff-primary);
+    width: auto;
+    height: auto;
 }
 
  /* menubar */
@@ -101,7 +103,7 @@ a{
   gap: 0;
   flex-direction: column;
   background-color: var(--clr-lightblue);
-  width: 63%;
+  width: 61%;
   opacity: 90%;
   font-family: var(--ff-primary);
   font-weight: var(--fw-reg);
@@ -205,7 +207,7 @@ text-align: left;
 .menu-btn {
   font-family: var(--ff-primary);
   font-size:large;
-  color: #fff;  
+  color: var(--clr-white);  
   background: var(--clr--pink);  
   padding: 7px;   
 	border-style: none;
@@ -217,3 +219,18 @@ text-align: left;
 	margin-right: auto;
 } 
 
+.dato {
+  font-size: small;
+  color: var(--clr-darkblue);
+  padding: 10px;
+}
+
+.corona {
+  display: inline-block;
+  text-align: left;
+  font-size: var(--fs-nav);
+  color: var(--clr-darkblue);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
