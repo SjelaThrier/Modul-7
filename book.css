@@ -347,14 +347,14 @@ text-align: left;
     text-align: center;
     padding: 7px;   
     border-style: none;
-    width: 80px;
+    width: 100px;
     height: 50px;
     border-radius: 25px;
     margin-left:auto;
     margin-right: auto;
   }
 
-  .blue-btn2:focus{
+.blue-btn2:focus{
     color: var(--clr--pink);
     background-color: var(--clr-white);
     font-family: var(--ff-primary);
@@ -364,9 +364,39 @@ text-align: left;
     padding: 7px;   
     border-style:ridge ;
     border-color: var(--clr--pink);
-    width: 80px;
+    width: 100px;
     height: 50px;
     border-radius: 25px;
     margin-left:auto;
     margin-right: auto;
-  }
+}
+
+.btn-pink{  
+    font-family: var(--ff-primary);
+    color: #fff;  
+    background: var(--clr--pink);  
+    padding: 7px;   
+	border-style: none;
+	width: 100px;
+	height: auto;
+	border-radius: 25px;
+	margin-left:auto;
+    margin-right: auto;
+}  
+.btn-pink2{  
+    font-family: var(--ff-primary);
+    color: #fff;  
+    float: right;
+    background: var(--clr--pink);  
+    padding: 7px;   
+	border-style: none;
+	width: 100px;
+	height: auto;
+	border-radius: 25px;
+	margin-left:auto;
+    margin-right: auto;
+} 
+
+.btn-box {
+  padding: 20px;
+}
