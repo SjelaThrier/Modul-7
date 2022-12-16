@@ -426,6 +426,7 @@ text-align: left;
     display: block;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
