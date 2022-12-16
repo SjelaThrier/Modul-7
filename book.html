@@ -68,7 +68,7 @@
             <div class="knapper">
                 <button class="blue-btn" type="button">Årskort <br> <i>Ubegrænset hop</i></button>
                 <p class="venstre">Til alle med årskort <br>
-                    Kortet fremvises ved ankomst</p>
+                    Kortet fremvises ved ankomst (HUSK skridsikre sokker) </p>
             </div>
         </div>
         <div class="overskrift">
@@ -97,10 +97,22 @@
         <div class="btn-box">      
             <form>
                 <input type="button" class="btn-pink" value="Tilbage" onclick="history.back()">
-                <button class="btn-pink2" type="button" onClick="location.href='#'">Bekræft</button>
+                <button class="btn-pink2" type="button" onClick="location.href='#popup1'">Bekræft</button>
             </form>
         </div> 
-        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Bekræftelse</h2> <br>
+                <a class="close" href="forside.html">&times;</a>
+                <div class="content">
+                    <img src="images/icon-lok.png" alt="lokation"><p>JumpingFun Odense</p><br>
+                    <img src="images/icon-date.png" alt="dato"><p id="p1"><i>selected date visible here, JS complication with other function (popup.js)</i></p><br>
+                    <img src="images/icon-time.png" alt="tid"><p><i>selected time visible here, JS complication with other function</i></p><br>
+                </div>
+                <p class="contenttext"><b>Husk at medbringe det gode humør!</b></p>
+                <img src="images/jnf.png" alt="vi-ses">
+            </div>
+        </div>
         
 <!--Footer-->
         <footer class="footer">

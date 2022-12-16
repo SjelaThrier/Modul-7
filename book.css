@@ -400,3 +400,78 @@ text-align: left;
 .btn-box {
   padding: 20px;
 }
+
+/* Bekræft popup */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: var(--clr-offwhite);
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: var(--clr--pink);
+    text-align: center;
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--clr-darkblue);
+  }
+  .popup .close:hover {
+    color: var(--clr--pink);
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+  .content {
+      background-color: var(--clr-white);
+      padding: 20px;
+      border-radius: 20px;
+  }
+  .contenttext {
+    text-align: center;
+    font-size: var(--fs-h2);
+    color: var(--clr-lightblue);
+    padding: 30px;
+}
