@@ -15,7 +15,7 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
-            header('Location: https://sjelafoged.design/html/forside.html/');
+            header('Location: https://sjelafoged.design/html/forside.html');
             exit;
         }  
         else{  
