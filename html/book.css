@@ -18,7 +18,7 @@
 
 body{   
     background: var(--clr-offwhite);  
-    font-family: var(--ff-primary);
+    font-family: 'montserrat' sans-serif;
     width: auto;
     height: auto;
 }
